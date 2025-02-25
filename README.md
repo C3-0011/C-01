@@ -1,14 +1,28 @@
 # C-01
  T-1 Ranger clone made from foamboard and 3D printed parts
 
+### Parts List:
+| Qty | Part | 
+| --- | --- |
+| 2 | ~2450kv Motors |
+| 2 | 5in tri-blade or 6in bi-blade propellers |
+| 2 | ~40A PWM Escs |
+| 3 | 9g Servo Motors |
+| 1 | 360mm X 16mm X 1mm Carbon Fiber Tube |
+| 1 | 500mm X 10mm X 1mm Carbon Fiber Tube |
+| 1 | 5+ Channel PWM Reciever |
+| - | Servo Extensions |
+| - | Pushrods |
+| - | Video System |
+| - | BEC |
 
 ## Print Instructions
-All of the C-01 is 3D printed in PLA. Lightweight PLA may be suitable but has not been tested.
+All of the 3D printed parts are printed in PLA. Lightweight PLA may be suitable but has not been tested.
 Print settings are:
 - 0.3mm Layer Height
 - Cubic 10% Infill
 - No supports
-* Unless stated otherwise
+Unless stated otherwise.
 
 ### Flat Components
 ![Flat Parts](https://github.com/user-attachments/assets/471cbd54-4bba-4b89-b405-6d21c221ced3)
@@ -23,3 +37,24 @@ Print the following number of each flat part in the orientation shown above:
 ### Fixtures
 ![Fixtures](https://github.com/user-attachments/assets/0964a386-a867-4c9a-b8b2-eec28e54f752)
 Print the following number of each fixture component in the orientation shown above
+| Number | Part |
+| --- | --- |
+| 2 | Wing Brace |
+| 2 | Motor Pod |
+| 1 | Tail Boom Fixture |
+| 1 | Empannage Fixture |
+
+### Hatch Components
+![Hatch Parts](https://github.com/user-attachments/assets/e1be1a6a-7b71-4b93-9d84-648461b41180)
+Print one of each Hatch and Lid components in the orientation shown above. This requires support material on the Hatch component as a minimum, and the Lid also benefits from the stability of adding support. A raft or brim, or slower print speed may help if the Lid component is struggling to adhere to the bed. After printing, install the M3 threaded insert / nut into the 5mm hole in the hatch component using a soldering iron.
+
+### Nose
+![Nose](https://github.com/user-attachments/assets/4ff418b8-ae34-4107-9263-cecae1d8b4da)
+Print the nose in the orientation shown above, with the front face flat on the build plate.
+
+If you are using the Analog 22mm nose or the Vista nose, supports should not be required. If you are using the O4 Lite nose then supports are needed, but only to support the USB port. Place a support enforcer such that it covers the "top" part of the usb hole that will need support. You could also enable support everywhere and spend time picking it out, or disable supports completely and file away any sag that may have occured.
+![o4 Nose](https://github.com/user-attachments/assets/036c9f32-e4d0-4cd1-8282-60280205a09e)
+
+## Cutting Foam Parts
+ The foam parts are all made from generic Readi-Board from the dollar store. Science fair foam board is not suitable for this model, as it is too dense. The PDF plans are designed to tile and be taped together to form patterns that can be adhered to the stock foamboard with temporary glue, then cut out with a hobby knife. There are 4 sets of patterns, HS (Horizontal Stab.), sides, and tops all have 3 sheets, and the wings pattern has 10 sheets. The wings pattern is made from 2 rows of 5 sheets, with the numbering starting in the top left, going left to right, then repeating on the lower row. The vertical stabilizer pattern is small enough to be printed on one sheet.
+ I reccomend you calibrate your printer using the 35mm square on the sides3 pdf. To do this, print sides3 at a scale of 100% (never scale to fit) and measure the square with calipers. Then when you print the patterns set the scale equal to: 100 * (35 / your measurement).
