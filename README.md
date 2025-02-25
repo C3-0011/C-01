@@ -1,6 +1,9 @@
 # C-01
  T-1 Ranger clone made from foamboard and 3D printed parts
 
+![Screenshot (29)](https://github.com/user-attachments/assets/69445d34-fd11-43a0-880f-9c30d352be42)
+
+
 ### Parts List:
 | Qty | Part | 
 | --- | --- |
